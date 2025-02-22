@@ -41,7 +41,9 @@ The result is displayed on the result page.
 * Result Page
   ![Screenshot 2025-02-22 110746](https://github.com/user-attachments/assets/edda12b1-a6b7-46a4-91b1-62af3c21b953)
 
-* Video sample of web application
+
+
+
   
 
 
