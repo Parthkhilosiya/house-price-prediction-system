@@ -41,6 +41,10 @@ The result is displayed on the result page.
 * Result Page
   ![Screenshot 2025-02-22 110746](https://github.com/user-attachments/assets/edda12b1-a6b7-46a4-91b1-62af3c21b953)
 
+  ## 📽 Demo Video
+[![Watch the Video](https://img.youtube.com/vi/PjkAVfuP0H0.jpg)](https://www.youtube.com/watch?v=PjkAVfuP0H0)
+
+
 
 
 
