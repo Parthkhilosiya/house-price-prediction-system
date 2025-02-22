@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction Result</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='result.css')}}">
+</head>
+<body>
+    <div class="image">
+        <img src="{{ url_for('static', filename='image1.jpg') }}" alt="House Image" >
+        <div class="btn"><button ><a href="/">Go Back</a></button></div>
+        <div class="result">
+            <h2>Predicted House Price: {{ price }} RS</h2>
+        </div>
+    </div>
+</body>
+</html>

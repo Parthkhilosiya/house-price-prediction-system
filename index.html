@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>House Price Prediction</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='index.CSS')}}">
+</head>
+<body>
+    <div class="heading"><h1>House Price Prediction system</h1></div>
+    <div class="heading1"><h2>👇Enter House Details👇</h2></div>
+    <div class="form">
+        <form class="" action="/predict" method="post">
+            Area (sq ft): <input type="number" name="area" required><br>
+            <label for="options" >Bedrooms</label>
+            <select id="options" name="bedrooms">
+                <option value="1">choose</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+            <label for="options" >Bathrooms</label>
+            <select id="options" name="bathrooms">
+                <option value="1">choose</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+            <label for="options" >Floors</label>
+            <select id="options" name="stories">
+                <option value="1">choose</option>
+                <option value="1">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+            <label for="options" >Main Road</label>
+            <select id="options" name="mainroad">
+                <option value="1">choose</option>
+                <option value="1">yes</option>
+                <option value="2">no</option>
+            </select>
+            <label for="options" >Guestroom</label>
+            <select id="options" name="guestroom">
+                <option value="1">choose</option>
+                <option value="1">yes</option>
+                <option value="2">no</option>
+            </select>
+            <label for="options" >Basement</label>
+            <select id="options" name="basement">
+                <option value="1">choose</option>
+                <option value="1">yes</option>
+                <option value="2">no</option>
+            </select>
+            <label for="options" >Hot Water Heating</label>
+            <select id="options" name="hotwaterheating">
+                <option value="1">choose</option>
+                <option value="1">yes</option>
+                <option value="2">no</option>
+            </select>
+            <label for="options" >Air Conditioning</label>
+            <select id="options" name="airconditioning">
+                <option value="1">choose</option>
+                <option value="1">yes</option>
+                <option value="2">no</option>
+            </select>
+            <label for="options" >Parking</label>
+            <select id="options" name="parking">
+                <option value="1">choose</option>
+                <option value="1">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+            <label for="options" >Preferred Area</label>
+            <select id="options" name="prefarea">
+                <option value="1">choose</option>
+                <option value="1">yes</option>
+                <option value="2">no</option>
+            </select>
+            <label for="options" > Furnishing Status</label>
+            <select id="options" name="furnishingstatus">
+                <option value="1">choose</option>
+                <option value="1">furnished</option>
+                <option value="2">semi-furnished</option>
+                <option value="3">unfurnished</option>
+            </select>
+            <button type="submit">Predict Price</button>
+        </form>
+    </div>
+
+</body>
+</html>
